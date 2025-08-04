@@ -1,3 +1,4 @@
+const mongoose = require('mongoose'); // Thêm dòng này đầu tiên
 mongoose.set('strictQuery', true);
 const express = require('express');
 const mongoose = require('mongoose');
