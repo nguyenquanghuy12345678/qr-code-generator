@@ -1,3 +1,4 @@
+mongoose.set('strictQuery', true);
 const express = require('express');
 const mongoose = require('mongoose');
 const qrRoutes = require('./routes/qr_routes');
