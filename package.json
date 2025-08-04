@@ -1,0 +1,20 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A QR code generator with history",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "qrcode": "^1.5.0",
+    "uuid": "^8.3.2",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
